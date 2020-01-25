@@ -1,0 +1,36 @@
+html{
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(rgb(0,255,249), rgb(255,0,193));
+
+}
+form p{
+    width: 50%;
+    float: left;
+    color: rgb(150,0,255);
+    font-size: 30px;
+}
+button{
+    width: 25%;
+    float: left;
+    font-size: 30px;
+    color: rgb(73,0,255);
+    background-color: rgb(134, 131, 219);
+}
+input{
+    font-size: 30px;
+}
+span{
+    color: rgb(150,0,255);
+}
+article{
+    font-size: 30px;
+}
+header{
+    Background-color: rgb(0,255,249);
+    border: solid black;
+    text-align: center;
+    color: rgb(150,0,255);
+}
