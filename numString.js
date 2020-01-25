@@ -244,6 +244,18 @@ function modeNum(){
         n5 ++;
     }
 
-    //needs to find the one repeated the most
-    
+    var max = Math.max(n1, n2, n3, n4, n5, n6);
+    if(n1 === 1 && n2 === 1 && n3 === 1 && n4 === 1 && n5 === 1 && n6 === 1){
+        output.innerHTML += "there were no duplicates";
+    }else if(max === n1){
+        output.innerHTML = "Your Mode is " + one + " and is appears " + n1 + " times.";
+    }else if(max === n2){
+        output.innerHTML = "Your Mode is " + two + " and is appears " + n2 + " times.";
+    }else if(max === n3){
+        output.innerHTML = "Your Mode is " + three + " and is appears " + n3 + " times.";
+    }else if(max === n4){
+        output.innerHTML = "Your Mode is " + four + " and is appears " + n4 + " times.";
+    }else if(max === n5){
+        output.innerHTML = "Your Mode is " + five + " and is appears " + n5 + " times.";
+    }
 }
